@@ -1,6 +1,7 @@
 export const CAMPSITES = [
     {
         id: 0,
+        featured: false,
         name: 'React Lake Campground',
         image: 'assets/images/react-lake.jpg',
         elevation: 1233,
@@ -45,6 +46,7 @@ export const CAMPSITES = [
     },
     {
         id: 1,
+        featured: true,
         name:'Chrome River Campground ',
         image: 'assets/images/chrome-river.jpg',
         elevation: 877,
@@ -89,6 +91,7 @@ export const CAMPSITES = [
     },
     {
         id: 2,
+        featured: false,
         name:'Breadcrumb Trail Campground',
         image: 'assets/images/breadcrumb-trail.jpg',
         elevation: 2901,
@@ -133,6 +136,7 @@ export const CAMPSITES = [
     },
     {
         id: 3,
+        featured: false,
         name:'Redux Woods Campground',
         image: 'assets/images/redux-woods.jpg',
         elevation: 42,
